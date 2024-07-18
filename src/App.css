@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+.App {
+  margin: 20px;
+}
+h1, h2, h3 {
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#email{
+  text-align: end;
+}
