@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import Header from './Header';
-import App from '../App.css';
 
 const BlogDetails = () => {
   const { id } = useParams(); // Access the route parameter
@@ -33,7 +32,7 @@ const BlogDetails = () => {
                   {comments.map(comment => (
                   <div key={comment.id} className='border rounded'>
                     <p>{comment.body}</p>
-                    <p id="email"><i>By: {comment.email}</i></p>
+                    <p style={{textAlign:'end'}}><i>By: {comment.email}</i></p>
               </div>
       ))}
                   </div>
