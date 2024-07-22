@@ -27,7 +27,7 @@ const BlogDetails = () => {
 
                 <div className='row'>
                  <p className='col-5'>{blog.body}</p>
-                  <div className='col-6'>
+                  <div className='col-7'>
                   <h5>Comments</h5>
                   {comments.map(comment => (
                   <div key={comment.id} className='border rounded'>
